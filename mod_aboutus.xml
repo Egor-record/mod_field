@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.1"
+	client="site"
+	method="upgrade">
+	<name>О нас ссылки</name>
+	<author>RED</author>
+	<creationDate>July 2004</creationDate>
+	<authorEmail>RED@redmail.ru</authorEmail>
+	<version>1.0</version>
+	<description>Модуль для отображения на сайте ссылок</description>
+	<files>
+		<filename module="mod_field">mod_aboutus.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+        <config>
+         <fields name="params">
+            <fieldset name="basic">
+                <field name="services-name" 
+                        label="Name"
+                        size="50"
+                        class="inputbox"
+                        
+                        />
+            </fieldset>
+        </fields>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="services-href" 
+                        label="Link"
+                        size="50"
+                        class="inputbox"
+                         
+                        />
+            </fieldset>
+        </fields>
+         <fields name="params">
+            <fieldset name="basic">
+                <field name="examples-name" 
+                        label="Name1"
+                        size="50"
+                        class="inputbox"
+                        
+                        />
+            </fieldset>
+        </fields>
+         <fields name="params">
+            <fieldset name="basic">
+                <field name="examples-href" 
+                        label="Link1"
+                        size="50"
+                        class="inputbox"
+                         
+                         />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

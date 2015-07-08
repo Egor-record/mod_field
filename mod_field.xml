@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.1"
+	client="site"
+	method="upgrade">
+	<name>Поля для ввода</name>
+	<author>RED</author>
+	<creationDate>July 2004</creationDate>
+	<authorEmail>RED@redmail.ru</authorEmail>
+	<version>1.0</version>
+	<description>Модуль ввода поля и отображения его на сайте</description>
+	<files>
+		<filename module="mod_field">mod_field.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+        <config>
+         <fields name="params">
+            <fieldset name="basic">
+                <field name="facebook-href" 
+                        label="Facebook"
+                        size="30"
+                        class="inputbox"
+                        
+                        />
+            </fieldset>
+        </fields>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="google-href" 
+                        label="Vkontakte"
+                        size="30"
+                        class="inputbox"
+                         
+                        />
+            </fieldset>
+        </fields>
+         <fields name="params">
+            <fieldset name="basic">
+                <field name="twitter-href" 
+                        label="Instagram"
+                        size="30"
+                        class="inputbox"
+                        
+                        />
+            </fieldset>
+        </fields>
+         <fields name="params">
+            <fieldset name="basic">
+                <field name="pinterest-href" 
+                        label="Pinterest"
+                        size="30"
+                        class="inputbox"
+                         
+                         />
+            </fieldset>
+        </fields>
+         <fields name="params">
+            <fieldset name="basic">
+                <field name="linkedin-href" 
+                        label="linkedin"
+                        size="30"
+                        class="inputbox"
+                        
+               				/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
